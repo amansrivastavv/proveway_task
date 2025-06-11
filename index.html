@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>proveway Task</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>YAY! It’s BOGO</h1>
+
+    <form id="offerForm">
+      <!-- Box 1 -->
+   <label class="offer-box popular">
+        <input type="radio" name="unit" value="1" />
+        <div class="box-content">
+          <div class="top-line">
+            <span class="unit">1 Unit</span>
+            <span class="discount">10% Off</span>
+            <span class="price">$10.00 USD</span>
+          </div>
+          <div class="subtext"><del>$15.00 USD</del></div>
+          <div class="selectors">
+            <div>#1 
+              <select><option>S</option></select>
+              <select><option>Black</option></select>
+            </div>
+            <div>#2 
+              <select><option>S</option></select>
+              <select><option>Colour</option></select>
+            </div>
+          </div>
+        </div>
+      </label>
+
+      <!-- Box 2 (Most Popular) -->
+      <label class="offer-box popular">
+        <span class="tag">MOST POPULAR</span>
+        <input type="radio" name="unit" value="2" />
+        <div class="box-content">
+          <div class="top-line">
+            <span class="unit">2 Unit</span>
+            <span class="discount">20% Off</span>
+            <span class="price">$18.00 USD</span>
+          </div>
+          <div class="subtext"><del>$24.00 USD</del></div>
+          <div class="selectors">
+            <div>#1 
+              <select><option>S</option></select>
+              <select><option>Black</option></select>
+            </div>
+            <div>#2 
+              <select><option>S</option></select>
+              <select><option>Colour</option></select>
+            </div>
+          </div>
+        </div>
+      </label>
+
+      <!-- Box 3 -->
+     <label class="offer-box popular">
+        <input type="radio" name="unit" value="3" />
+        <div class="box-content">
+          <div class="top-line">
+            <span class="unit">3 Unit</span>
+            <span class="discount">30% Off</span>
+            <span class="price">$24.00 USD</span>
+          </div>
+          <div class="subtext"><del>$30.00 USD</del></div>
+          <div class="selectors">
+            <div>#1 
+              <select><option>S</option></select>
+              <select><option>Black</option></select>
+            </div>
+            <div>#2 
+              <select><option>S</option></select>
+              <select><option>Colour</option></select>
+            </div>
+          </div>
+        </div>
+      </label>
+    </form>
+
+   
+    <div class="bottom">
+      <span class="delivery">Free Delivery</span>
+      <span class="total">Total : <strong id="totalPrice">$10.00 USD</strong></span>
+    </div>
+
+    <button class="add-to-cart">+ Add to Cart</button>
+    <p class="powered">Powered by Pumper</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
